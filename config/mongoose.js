@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongo_url = 'mongodb://localhost:27017/crm';
+const mongo_url = `mongodb+srv://sachin:12345@cluster0.o4hbbxz.mongodb.net/?retryWrites=true&w=majority`;
 
 mongoose.connect(mongo_url);
 
